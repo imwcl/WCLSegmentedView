@@ -12,6 +12,7 @@
 		97F3BFB31DEE7F55000B00CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F3BFB11DEE7F55000B00CD /* Main.storyboard */; };
 		97F3BFB51DEE7F55000B00CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F3BFB41DEE7F55000B00CD /* Assets.xcassets */; };
 		97F3BFB81DEE7F55000B00CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F3BFB61DEE7F55000B00CD /* LaunchScreen.storyboard */; };
+		97F3BFC01DEE8012000B00CD /* WCLSegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F3BFBF1DEE8012000B00CD /* WCLSegmentedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		97F3BFB41DEE7F55000B00CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97F3BFB71DEE7F55000B00CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97F3BFB91DEE7F55000B00CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F3BFBF1DEE8012000B00CD /* WCLSegmentedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLSegmentedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		97F3BFAC1DEE7F55000B00CD /* WCLSegmentedView */ = {
 			isa = PBXGroup;
 			children = (
+				97F3BFBF1DEE8012000B00CD /* WCLSegmentedView.swift */,
 				97F3BFAD1DEE7F55000B00CD /* AppDelegate.swift */,
 				97F3BFAF1DEE7F55000B00CD /* ViewController.swift */,
 				97F3BFB11DEE7F55000B00CD /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					97F3BFA91DEE7F55000B00CD = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 464B6RYLBK;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F3BFC01DEE8012000B00CD /* WCLSegmentedView.swift in Sources */,
 				97F3BFB01DEE7F55000B00CD /* ViewController.swift in Sources */,
 				97F3BFAE1DEE7F55000B00CD /* AppDelegate.swift in Sources */,
 			);
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 464B6RYLBK;
 				INFOPLIST_FILE = WCLSegmentedView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WCL.WCLSegmentedView;
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 464B6RYLBK;
 				INFOPLIST_FILE = WCLSegmentedView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WCL.WCLSegmentedView;
